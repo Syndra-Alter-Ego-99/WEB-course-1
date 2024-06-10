@@ -1,0 +1,260 @@
+* { margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;}
+
+#container { width: 100%;}
+
+h1 { font-size: 5em;
+    text-align: center;
+    margin: 2%;}
+
+.dish1 { background-color: rgb(184, 231, 146);
+        color: red;
+        border: 5px solid black;
+        width: 30%;
+        height: auto;
+        padding: 2%;
+        margin: 1%;
+        display: inline-block;}
+
+.dish2 { background-color: rgb(224, 224, 224);
+        color: rgb(0, 83, 190);
+        border: 5px solid black;
+        width: 30%;
+        height: auto;
+        padding: 2%;
+        margin: 1%;
+        display: inline-block;}
+
+.dish3 { background-color: seashell;
+        color: purple;
+        border: 5px solid black;
+        width: 30%;
+        height: auto;
+        padding: 2%;
+        margin: 1%;
+        display: inline-block;}
+
+p { font-size: 1.5em;
+    width: 100%;}
+
+h2 { font-size: 2.5em;
+        width: 100%;}
+
+.dish1 h2 { background-color: forestgreen;
+    color: gold;
+    width: 45%;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    }
+
+.dish2 h2 { background-color: rgb(29, 46, 202);
+    color: rgb(255, 255, 255);
+    width: 45%;
+    text-align: center;
+    padding: 2%;
+    margin: 2%;}
+
+.dish3 h2 { background-color: rgb(197, 0, 138);
+    color: rgb(255, 228, 77);
+    width: 45%;
+    padding: 2%;
+    margin: 2%;
+    text-align: center;
+    }
+
+
+@media ( min-width:992px) {
+
+    h1 { font-size: 5em;
+        text-align: center;
+        margin: 2%;}
+    
+    .dish1 { background-color: rgb(184, 231, 146);
+            color: red;
+            border: 5px solid black;
+            width: 30%;
+            height: auto;
+            padding: 2%;
+            margin: 1%;
+            display: inline-block;}
+    
+    .dish2 { background-color: rgb(224, 224, 224);
+            color: rgb(0, 83, 190);
+            border: 5px solid black;
+            width: 30%;
+            height: auto;
+            padding: 2%;
+            margin: 1%;
+            display: inline-block;}
+    
+    .dish3 { background-color: seashell;
+            color: purple;
+            border: 5px solid black;
+            width: 30%;
+            height: auto;
+            padding: 2%;
+            margin: 1%;
+            display: inline-block;}
+    
+    p { font-size: 1.5em;
+        width: 100%;}
+    
+    h2 { font-size: 2.5em;
+            width: 100%;}
+    
+    .dish1 h2 { background-color: forestgreen;
+        color: gold;
+        width: 45%;
+        padding: 2%;
+        margin: 2%;
+        text-align: center;
+        }
+    
+    .dish2 h2 { background-color: rgb(29, 46, 202);
+        color: rgb(255, 255, 255);
+        width: 45%;
+        text-align: center;
+        padding: 2%;
+        margin: 2%;}
+    
+    .dish3 h2 { background-color: rgb(197, 0, 138);
+        color: rgb(255, 228, 77);
+        width: 45%;
+        padding: 2%;
+        margin: 2%;
+        text-align: center;
+        }
+}
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991px) {
+
+    h1 { font-size: 3em;
+        text-align: center;
+        margin: 2%;}
+    
+    .dish1 { background-color: rgb(184, 231, 146);
+            color: red;
+            border: 5px solid black;
+            width: 45%;
+            height: auto;
+            padding: 2%;
+            margin: 1%;
+            display: inline-block;}
+    
+    .dish2 { background-color: rgb(224, 224, 224);
+            color: rgb(0, 83, 190);
+            border: 5px solid black;
+            width: 45%;
+            height: auto;
+            padding: 2%;
+            margin: 1%;
+            display: inline-block;}
+    
+    .dish3 { background-color: seashell;
+            color: purple;
+            border: 5px solid black;
+            width: 93%;
+            height: auto;
+            padding: 2%;
+            margin: 1%;
+            display: inline-block;}
+    
+    p { font-size: 1em;
+        width: 100%;}
+    
+    h2 { font-size: 2em;
+            width: 100%;}
+    
+    .dish1 h2 { background-color: forestgreen;
+        color: gold;
+        width: 45%;
+        padding: 2%;
+        margin: 2%;
+        text-align: center;
+        }
+    
+    .dish2 h2 { background-color: rgb(29, 46, 202);
+        color: rgb(255, 255, 255);
+        width: 45%;
+        text-align: center;
+        padding: 2%;
+        margin: 2%;}
+    
+    .dish3 h2 { background-color: rgb(197, 0, 138);
+        color: rgb(255, 228, 77);
+        width: 45%;
+        padding: 2%;
+        margin: 2%;
+        text-align: center;
+        }
+}
+
+
+
+
+
+
+@media (max-width:767px) {
+
+    h1 { font-size: 2em;
+        text-align: center;
+        margin: 2%;}
+    
+    .dish1 { background-color: rgb(184, 231, 146);
+            color: red;
+            border: 5px solid black;
+            width: 90%;
+            height: auto;
+            padding: 3%;
+            margin: 1%;
+            display: inline-block;}
+    
+    .dish2 { background-color: rgb(224, 224, 224);
+            color: rgb(0, 83, 190);
+            border: 5px solid black;
+            width: 90%;
+            height: auto;
+            padding: 3%;
+            margin: 1%;
+            display: inline-block;}
+    
+    .dish3 { background-color: seashell;
+            color: purple;
+            border: 5px solid black;
+            width: 90%;
+            height: auto;
+            padding: 3%;
+            margin: 1%;
+            display: inline-block;}
+    
+    p { font-size: 1em;
+        width: 100%;}
+    
+    h2 { font-size: 1em;
+        width: fit-content;
+        padding: 2%;
+        margin: 2%;}
+    
+    .dish1 h2 { background-color: forestgreen;
+        color: gold;
+        text-align: center;
+        }
+    
+    .dish2 h2 { background-color: rgb(29, 46, 202);
+        color: rgb(255, 255, 255);
+        text-align: center;
+        }
+    
+    .dish3 h2 { background-color: rgb(197, 0, 138);
+        color: rgb(255, 228, 77);
+        text-align: center;
+        }
+}
+
